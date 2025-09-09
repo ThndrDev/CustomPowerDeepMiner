@@ -12,7 +12,7 @@ namespace CustomPowerDeepMiner
         [HarmonyPostfix]
         [UsedImplicitly]
 
-        static private void ChangeAPCRechargeRatePatch(DeepMiner __instance) 
+        static private void ChangeDeepminerPowerPatch(DeepMiner __instance) 
         {
             __instance.UsedPower = ConfigFile.DeepminerPowerUsage;
         }
